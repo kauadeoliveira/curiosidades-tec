@@ -32,6 +32,7 @@ header h1{
     padding-top: 35px;
     font-size: 3em;
     font-family: var(--fonte-destaque);
+    text-shadow: 7px 5px 7px rgba(0, 0, 0, 0.22);
 }
 header p{
     margin: auto;
@@ -45,7 +46,6 @@ nav{
     background-color: var(--cor03);
     padding-bottom: 5px;
     box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.09);
-    position: sticky;
 }
 nav a{
     padding: 0 20px;
@@ -65,6 +65,9 @@ main{
     margin: auto;
     max-width: 800px;
     padding: 30px 15px;
+    margin-bottom: 60px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 9px 10px 3px rgba(0, 0, 0, 0.103);
 }
 main h1{
     color: var(--cor05);
