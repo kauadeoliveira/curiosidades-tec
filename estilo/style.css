@@ -6,8 +6,8 @@
     src: url(../fontes/idroid.otf);
 }
 :root{
-    --cor01:#6475DF;
-    --cor02:#2139D9;
+    --cor01:#6474df94;
+    --cor02:#213ad9d5;
     --cor03:#192CA6;
     --cor04:#000D5C;
     --cor05:#0D1859;
@@ -15,4 +15,74 @@
     --fonte-padrao: Arial, sans-serif;
     --fonte-android: 'Android', cursive;
     --fonte-destaque: 'Bebas Neue', cursive;
+}
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: var(--cor01);
+}
+header{
+    background-color: var(--cor03);
+    color: white;
+    text-align: center;
+}
+header h1{
+    padding-top: 35px;
+    font-size: 3em;
+    font-family: var(--fonte-destaque);
+}
+header p{
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    max-width: 500px;
+    font-size: 1.3em;
+    font-family: var(--fonte-padrao);
+}
+nav{
+    background-color: var(--cor03);
+    padding-bottom: 5px;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.09);
+    position: sticky;
+}
+nav a{
+    padding: 0 20px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1em;
+    border-radius: 7px;
+}
+nav a:hover{
+    background-color: var(--cor01);
+    color:black;
+}
+main{
+    background-color: white;
+    margin: auto;
+    max-width: 800px;
+    padding: 30px 15px;
+}
+main h1{
+    color: var(--cor05);
+    text-align: center;
+    font-size: 2.2em;
+    font-family: var(--fonte-android);
+    
+
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor01), transparent);
+    color: var(--cor05);
+    text-indent: 40px;
+    font-size: 1.9em;
+    font-family: var(--fonte-android);
+    max-width: 700px;
+}
+main p{
+    padding: 20px 0px;
+    font-size: 1.04em;
 }
