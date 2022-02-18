@@ -68,7 +68,7 @@ nav a:hover{
 main{
     background-color: white;
     margin: auto;
-    max-width: 800px;
+    max-width: 850px;
     padding: 30px 15px;
     margin-bottom: 60px;
     border-radius: 0px 0px 20px 20px;
@@ -167,6 +167,8 @@ footer{
     background-color: var(--cor05);
     color: white;
     text-align: center;
+    width: 100%;
+    padding: 10px 0px;
 }
 footer .linkrodape{
     color: white;
