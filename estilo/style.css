@@ -119,6 +119,7 @@ article picture > img{
     display: block;
     margin: auto;
     max-width: 900px;
+    width: 80%;
 }
 #video{
     background-color: #0D1859;
