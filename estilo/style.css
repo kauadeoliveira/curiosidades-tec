@@ -23,6 +23,10 @@
 body{
     background-color: var(--cor01);
 }
+body strong{
+    font-weight: 900;
+    color: var(--cor04);
+}
 header{
     background-color: var(--cor03);
     color: white;
@@ -80,12 +84,95 @@ main h1{
 main h2{
     background-image: linear-gradient(to right, var(--cor01), transparent);
     color: var(--cor05);
-    text-indent: 40px;
+    text-indent: 20px;
     font-size: 1.9em;
     font-family: var(--fonte-android);
     max-width: 700px;
 }
 main p{
-    padding: 20px 0px;
-    font-size: 1.04em;
+    padding: 10px 0px;
+    font-size: 1.08em;
+    text-align: justify;
+    text-indent: 20px;
+}
+main a{
+    background-color: var(--cor01);
+    color: var(--cor05);
+    text-decoration: none;
+    font-weight: bolder;
+}
+main a::after{
+    content: "🔗";
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor02);
+    color: black;
+}
+article #bugdroid{
+    display: block;
+    margin: auto;
+    width: 400px;
+
+}
+article picture > img{
+    display: block;
+    margin: auto;
+    max-width: 900px;
+    min-width: 300px;
+}
+#video{
+    background-color: #0D1859;
+    position: relative;
+    padding-bottom: 50%;
+    margin: auto;
+    box-shadow: 0px 6px 12px #00000054;
+}
+#video iframe{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+}
+aside{
+    background-color: var(--cor01);
+    margin: 30px 0px;
+    box-shadow: 0px 6px 12px #00000054;
+    border-radius: 20px;
+}
+aside h3{
+    background-color: var(--cor03);
+    color: white;
+    padding: 8px;
+    border-radius: 20px 20px 0px 0px;
+    font-family: var(--fonte-padrao);
+    font-size:1.3em;
+    text-indent: 10px;
+}
+aside p{
+    padding: 10px 7px;
+    text-align: justify;
+}
+aside ul{
+    padding: 0px 30px;
+    columns: 2;
+    list-style: "✔ ";
+}
+aside ul li abbr{
+    text-decoration: none;
+}
+footer{
+    background-color: var(--cor05);
+    color: white;
+    text-align: center;
+}
+footer .linkrodape{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer .linkrodape:hover{
+    text-decoration: underline;
+    color: var(--cor01);
 }
